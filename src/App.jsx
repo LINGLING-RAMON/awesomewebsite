@@ -91,9 +91,9 @@ function App() {
             <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
               <About />
             </section>
-            <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
+            {/* <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
               <About />
-            </section>
+            </section> */}
           </div>
         </div>
       </>
