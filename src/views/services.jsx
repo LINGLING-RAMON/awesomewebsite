@@ -1,5 +1,6 @@
 // Service.jsx
 import React from "react";
+import './services.scss';
 
 const items = [
     { label: "E-commerce websites with smooth checkout & custom product pages", href: "/work#ecommerce" },
