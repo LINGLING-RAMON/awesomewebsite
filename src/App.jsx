@@ -6,6 +6,7 @@ import Rain from './components/Rain';
 import Header from './components/Header';
 import Landing from './views/landing-page';
 import About from './views/about-page';
+import Service from './views/services';
 
 function App() {
   const rainRef = useRef();
@@ -89,11 +90,11 @@ function App() {
               <Landing />
             </section>
             <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
+              <Service />
+            </section>
+            <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
               <About />
             </section>
-            {/* <section className="snap-start overflow-y-auto md:min-h-[100vh] lg:min-m-screen">
-              <About />
-            </section> */}
           </div>
         </div>
       </>
