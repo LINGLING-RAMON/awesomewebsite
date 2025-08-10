@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const navItems = ['my-home', 'project-site', 'experience-level', 'contact-me'];
+const navItems = ['my-home', 'project-site', 'experience-level', 'work-with-me'];
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -48,7 +48,7 @@ export default function Header() {
                         <a
                             key={item}
                             href={`#${item}`}
-                            className="text-white tracking-wide font-semibold hover:text-gray-200 px-2 py-5 hover:!opacity-100 transition-opacity select-none group-hover:opacity-20"
+                            className="relative text-white tracking-wide font-semibold hover:text-gray-200 px-2 py-5 hover:!opacity-100 transition-all duration-300 select-none group-hover:opacity-20 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-400 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full"
                         >
                             <span className="opacity-70">// </span>
                             {item}
